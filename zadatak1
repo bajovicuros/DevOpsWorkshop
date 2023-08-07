@@ -1,0 +1,18 @@
+zadatak:
+
+ - instalirati vscode na racunaru i napraviti fajl koji se zove ime.prezime.zadatak1.txt preko vscoda
+
+ - napisati postupak kreiranja ssh kljuceva po ed25519 standardu
+
+ - napisati postupak kako dodati ssh kljuc od kolege na server da bi i on mogao da se ssh-uje na njega
+
+ - napisati postupak kako prebaciti 700 fajlova sa servera na lokalnu masinu
+
+ - napisati postupak kako proveriti koji portovi su zauzeti na serveru
+
+ - napisati postupak kako preimenovati fajl na serveru kroz terminal
+ 
+ - napisati komande za unos, pretragu, pretragu broja linije, izlazak iz vim-a
+
+ - pushovati taj fajl sa ime.prezime.zadatak1.txt formatom na github repozitorijum, svako na svoju granu koja se zove ime.prezime (vase ime i prezime)
+
