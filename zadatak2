@@ -1,0 +1,7 @@
+1. Na svom racunaru instalirati docker.
+2. Dovuci image postgres verziju 14.10
+3. Unutar napraviti jednu tabelu sa nazivom "Users-DevOps" i kolonama "Name,LastName,DateOfBirth" i popuniti sa 2 unosa.
+4. Unutar kontejnera napraviti folder sa nazivom "backup" i napraviti backup baze unutar njega u sql formatu.
+5. Dovuci image mysql verziju 8.
+6. Uraditi restore u mysql sa backupom iz postgres-a.
+7. Napraviti nginx container koji ce da radi kao web server sa nasim bazama i koji ce da prikazuje nasu tabelu iz baze.
