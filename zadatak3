@@ -1,0 +1,8 @@
+1. podici docker container sa nginx web serverom instaliranim
+2. napraviti da taj nginx radi na portu 3000 i prikazuje vas sadrzaj u browseru
+3. vas sadrzaj treba da bude u html kodu sa 2 razlicita hedera, prvi da bude ime i prezime a drugi heder da bude ime firme (firma se zove Software2go) u bodyju da bude bilo koji tekst, nesto kopirano sa wikipedije
+4. napraviti drugi container koji ce biti apache i prikazivati isti taj sadrzaj na portu 4000
+
+
+Hint 1: treba da se napravi Dockerfile
+Hint 2: https://www.digitalocean.com/community/tutorials/apache-vs-nginx-practical-considerations
