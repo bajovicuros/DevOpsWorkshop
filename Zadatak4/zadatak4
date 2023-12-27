@@ -1,0 +1,2 @@
+
+Koristeci znanje koje ste do sad stekli, podignite web aplikaciju iz projekat.zip fajlova, aplikacija mora da bude interaktivna, ako nije, znaci da niste lepo uradili Dockerfile. Koristite nginx v1.24.0 . Nakon toga proverite funkcionalnost sajta, da li otvara sve moguce prozore koji su u njemu.
