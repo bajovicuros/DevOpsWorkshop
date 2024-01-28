@@ -10,7 +10,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t testing:latest -f Zadatak4/projekat/Dockerfile
+        docker build -t testing:latest -f /Zadatak4/projekat/Dockerfile /Zadatak4/projekat/
 
     # - name: Log in to Docker Hub
     #   run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }}
