@@ -20,3 +20,4 @@ jobs:
 
     - name: Push Docker Image to Docker Hub
       run: docker push testing:latest
+      
