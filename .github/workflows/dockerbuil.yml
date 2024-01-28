@@ -19,7 +19,7 @@ jobs:
     - name: Log in to Docker Hub
       run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }}
 
-    - name: Push Docker Image to Docker Hub
+    - name: Tag & Push Docker Image to Docker Hub
       run: | 
         docker tag testing:latest bajovicuros/testing
         docker push bajovicuros/testing:latest
