@@ -1,0 +1,12 @@
+name: Poruka prilikom pusha
+
+on: push
+
+jobs:
+  echo-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: echo message
+        run: |
+          echo "ova poruka ce da se izvrsi prilikom pusha"
