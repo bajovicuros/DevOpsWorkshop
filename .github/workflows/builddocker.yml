@@ -1,0 +1,25 @@
+name: Build and Push Docker Image
+
+on: push
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Build Docker Image
+        run: |
+          cd Zadatak4
+          docker build -t testing:latest .
+          docker images
+
+      - name: Log in dockerhub
+        run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }}
+
+      - name: Tag & Push docker image to dockerhub
+        run: |
+          docker tag testing:latest bajovicuros/testing
+          docker push bajovicuros/testing:latest
